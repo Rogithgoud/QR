@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    background: #edf2fc;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content:space-between;
+}
+.solo{
+    width: 100px;
+    cursor: pointer;
+    
+   
+   
+}
+nav ul li{
+    font-weight: 600;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #020202;
+}
+nav  li a:hover{
+    color: #5BBCFF;
+    
+}
+.me{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.me h1{
+    font-size: 70px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+span{
+    color: #5BBCFF;
+}
+.me a{
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+    text-decoration:wavy;
+    border-radius: 8px;
+    margin: 25px 0;
+    display:inline-block;
+    cursor: pointer;
+}
+.me a:hover{
+    color: #5BBCFF;
+}
+
+.image img{
+    left:80%;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: left 1s;
+}
+.image img:hover{
+    left: 75%;
+}
+.socialmedia{
+    margin-left: 7%;
+    margin-top: 60px;
+}
+.socialmedia a{
+    font-size: 30px;
+    color:black;
+    margin-right: 20px;
+}
+.socialmedia a:hover{
+    color: #5BBCFF;
+}
